@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import { X, LoaderCircle, Sparkles } from "lucide-react";
 import { api } from '../api';
-import { initialForm, interests } from '../Datas';
+import { initialForm, interests } from '../Datass';
 
 
 
