@@ -1,4 +1,4 @@
-import { dateText, moneyText, numericCost, initialForm } from "../datas"
+import { dateText, moneyText, numericCost, initialForm } from "../Datas"
 import React from "react"
 import { useState } from "react"
 import { X, Users, Wallet, Sparkles, LoaderCircle } from "lucide-react";
