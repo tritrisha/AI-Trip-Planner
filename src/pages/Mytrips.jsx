@@ -13,8 +13,7 @@ const Mytrips = ({ trips, loading, onOpen, onDelete, onPlan }) => {
     <div className="container">
         <div className="section-title">
             <div>
-                {/* <span className="text-white text-[11px] tracking-[1.6px] font-extrabold">YOUR TRIPS</span> */}
-                <h2>My Trips</h2>
+                <h2>Trip History</h2>
                 <p>View and manage your travel plans.</p>
             </div>
             <button className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-lg font-bold text-black shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl active:translate-y-0 active:scale-95" onClick={onPlan}><Plus size={18} /> New Trip</button>

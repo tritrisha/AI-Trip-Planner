@@ -9,7 +9,7 @@ import Home from './pages/Home'
 import Popform from './components/Popform'
 import Mytrips from './pages/Mytrips'
 import { TripDetails } from './components/Tripdet'
-import { BrowserRouter, Routes, Route , useLocation} from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import DotGrid from './components/Background'
 
 
@@ -43,13 +43,12 @@ function App() {
     setSelectedTrip(updated)
     setTrips((current) => current.map((trip) => trip.id === id ? updated : trip))
   }
-  const location = useLocation();
   return <>
       <div className="fixed inset-0 -z-10">
         <DotGrid
           dotSize={5}
           gap={15}
-          baseColor="#8a95e2"
+          baseColor="#cacfff"
           activeColor="#0a48f1"
           proximity={120}
           shockRadius={250}
