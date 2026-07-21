@@ -3,7 +3,8 @@ import {
   CalendarDays, CheckCircle2, LoaderCircle, MapPin, Menu, Plus,
   Sparkles, Trash2, Users, Wallet, X,
 } from 'lucide-react'
-import { dateText } from '../datas'
+import { dateText } from '../Datass'
+
 
 const Mytrips = ({ trips, loading, onOpen, onDelete, onPlan }) => {
   return (
