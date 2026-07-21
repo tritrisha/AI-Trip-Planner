@@ -6,7 +6,7 @@ async function request(path, options = {}) {
     ...options,
   })
   const data = await response.json().catch(() => null)
-  if (!response.ok) throw new Error(data?.detail || data?.message || 'Something went wrong')
+  if (!response.ok) throw new Error(data?.detail || data?.message || 'Something really went wrong')
   return data
 }
 

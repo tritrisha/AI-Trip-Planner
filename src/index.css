@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
-:root { font-family: Arial, Helvetica, sans-serif; color: #1e293b; background: #9ac6f1; font-synthesis: none; }
+:root { font-family: Arial, Helvetica, sans-serif; color: #1e293b; background: #02073b; font-synthesis: none; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; min-width: 320px; }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
-.container { width: min(1100px, calc(100% - 40px)); margin: 0 auto; }
-.header { height: 72px; display: flex; align-items: center; background: #9ac6f1; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 30; }
+.container { width: min(1100px, calc(100% - 40px)); margin: 0 auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.header { height: 72px; justify-content: center; display: flex; align-items: center; background: #9ac6f1; position: sticky; top: 0; z-index: 30; }
 .nav { display: flex; align-items: center; justify-content: space-between; }
 .brand { border: 0; background: none; display: flex; align-items: center; gap: 10px; color: #0f172a; font-size: 18px; font-weight: 750; }
 .brand > span { width: 36px; height: 36px; border-radius: 9px; display: grid; place-items: center; color: white; background: #2563eb; }
@@ -15,8 +15,8 @@ button { cursor: pointer; }
 .nav nav a { color: #475569; text-decoration: none; font-size: 14px; font-weight: 500; }
 .nav nav button { border: 0; border-radius: 8px; color: white; background: #2563eb; padding: 10px 17px; font-size: 14px; font-weight: 650; }
 .menu-button { display: none; border: 0; background: none; color: #334155; }
-.hero { background: linear-gradient(135deg, #eff6ff, #9ac6f1 60%, #eef2ff); border-bottom: 1px solid #9ac6f1; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; }
-.hero-content { min-height: 500px; padding: 80px 0; display: flex; align-items: center; text-align: center; flex-direction: column; justify-content: center; }
+.hero { min-height: 700px; background: linear-gradient(135deg, #eff6ff, #9ac6f1 60%, #eef2ff); display: flex; align-items: center; text-align: center; flex-direction: column; justify-content: center; border-bottom: 1px solid #9ac6f1; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; }
+.hero-content { min-height: 1000px; padding: 80px 0; display: flex; align-items: center; text-align: center; flex-direction: column; justify-content: center; }
 .hero-icon { width: 64px; height: 64px; display: grid; place-items: center; border-radius: 16px; color: #2563eb; background: white; box-shadow: 0 10px 30px rgba(37, 99, 235, .12); margin-bottom: 22px; }
 .hero-icon svg { width: 30px; height: 30px; }
 .label { color: #2563eb; font-size: 11px; letter-spacing: 1.6px; font-weight: 750; }
@@ -25,9 +25,9 @@ button { cursor: pointer; }
 .primary-button { border: 0; border-radius: 8px; background: #2563eb; color: white; padding: 12px 19px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: 650; transition: .2s; }
 .primary-button:hover { background: #1d4ed8; }
 .primary-button:disabled { opacity: .6; cursor: wait; }
-.trips-section { min-height: 480px; padding: 80px 0 100px; }
-.section-title { display: flex; align-items: end; justify-content: space-between; margin-bottom: 32px; }
-.section-title h2 { color: #0f172a; font-size: 34px; margin: 8px 0 5px; }
+.trips-section { min-height: 480px; padding: 80px 0 100px; font-family: 'Courier New', Courier, monospace;}
+.section-title { display: flex; align-items: end; justify-content: space-between; margin-bottom: 32px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.section-title h2 { color: #fbfbfc; font-size: 34px; margin: 8px 0 5px; }
 .section-title p { margin: 0; color: #64748b; font-size: 14px; }
 .trip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .trip-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px; box-shadow: 0 3px 12px rgba(15, 23, 42, .04); }
